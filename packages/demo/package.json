@@ -1,6 +1,6 @@
 {
   "name": "@vihaitai/demo",
-  "version": "1.0.7",
+  "version": "0.0.3",
   "private": false,
   "main": "index.js",
   "module": "./index.js",
