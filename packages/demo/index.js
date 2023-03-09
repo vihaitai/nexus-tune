@@ -8,3 +8,10 @@ export format(str) {
 	return chalk.greeb(str)
 }
 
+export greet() {
+	console.log("hello world")
+}
+
+export where() {
+	console.log("witsky2023-03-09")
+}

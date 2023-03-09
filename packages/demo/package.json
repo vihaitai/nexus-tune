@@ -1,9 +1,14 @@
 {
-  "name": "@haitai/demo",
-  "version": "1.0.0",
+  "name": "@vihaitai/demo",
+  "version": "1.0.6",
+  "private": false,
+  "main": "index.js",
   "module": "./index.js",
   "description": "",
-  "main": "index.js",
+  "publishConfig": {
+    "registry": "http://192.168.150.226:11111/repository/npm-internal/",
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,10 +17,7 @@
   "dependencies": {
     "chalk": "^5.2.0"
   },
-  "workspaces": [
-    "packages/*"
-  ],
-  "devDependencies": {
-    "lerna": "^6.5.1"
+  "peerDependencies": {
+    "react": "16.5.2"
   }
 }
