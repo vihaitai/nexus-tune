@@ -9,7 +9,7 @@ export format(str) {
 }
 
 export greet() {
-	console.log("hello world")
+	console.log("ccccc hello world")
 }
 
 export where() {

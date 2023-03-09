@@ -6,5 +6,8 @@
   },
   "volta": {
     "node": "16.14.0"
+  },
+  "dependencies": {
+    "@vihaitai/dog": "^0.0.2"
   }
 }
